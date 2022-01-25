@@ -21,7 +21,7 @@ var moneyAvailabe = 100;
 var orangePrice = 5;
 
 var orangeQuantity = moneyAvailabe / orangePrice;
-console.log(orangeQuantity);
+// console.log(orangeQuantity);
 
 
 // special edition
@@ -30,5 +30,13 @@ var secondNumber = 0.2;
 var total = firstNumber + secondNumber;
 total = total.toFixed(1);
 total = parseFloat(total);
-console.log(total);
+// console.log(total);
 // console.log( parseFloat(total.toFixed(1)));
+
+// Modulus
+var mangoes = 17;
+var hungryPerson = 5;
+var dividing = mangoes / hungryPerson;
+console.log(dividing);
+var remainder = mangoes % hungryPerson;
+console.log(remainder);
