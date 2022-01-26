@@ -40,3 +40,5 @@ var dividing = mangoes / hungryPerson;
 console.log(dividing);
 var remainder = mangoes % hungryPerson;
 console.log(remainder);
+
+//conversion
